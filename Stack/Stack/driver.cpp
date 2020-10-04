@@ -1,12 +1,15 @@
 /*
 Driver Program for cStack class
 */
+//adding librareies  and cstack.cpp file 
 #include "cStack.h"
 #include <iostream>
 #include <fstream>
 using namespace std;
-
 int main() {
+	
+	//declear object of stack class and node class 
+	
 	cStack stack;
 	cNode node;
 	/*
@@ -180,4 +183,5 @@ int main() {
 	inFile.close();
 
 	system("pause");
+	//return 0 ;
 }
